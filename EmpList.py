@@ -1,7 +1,7 @@
 %%writefile empClass.py
 # this command write the file automatically
 # has to be the top of the code chunk, the first line
-# codes to write follows below
+
 class Employee:
     def __init__(self, first_name, last_name, emp_number): # attributes
         self._first_name = first_name # _first_name is a private variable
